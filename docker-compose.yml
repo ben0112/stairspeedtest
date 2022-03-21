@@ -1,0 +1,9 @@
+services:
+  stairspeedtest:
+    container_name: stairspeedtest
+    image: benjaminzhang/stairspeedtest
+    stdin_open: true
+    tty: true
+    ports:
+      - 65430:65430
+      
